@@ -67,14 +67,14 @@ var getMovie = function (movieName) {
         console.log('error:', error); // Print the error if one occurred
         if (!error && response.statusCode == 200) {
             var jsonData = JSON.parse(body);
-            console.log('Title: ', + jsonData.Title);
-            console.log('Year: ', + jsonData.Year);
-            console.log('IMDB Rating: ', + jsonData.imdbRating);
-            console.log('Rotten Tomatoes Rating: ', + jsonData.tomatoRating);
-            console.log('Country: ', + jsonData.Country);
-            console.log('Language: ', + jsonData.Language);
-            console.log('Plot: ', + jsonData.Plot);
-            console.log('Actors: ', + jsonData.Actors);
+            console.log('Title: ' + jsonData.Title);
+            console.log('Year: ' + jsonData.Year);
+            console.log('IMDB Rating: ' + jsonData.imdbRating);
+            console.log('Rotten Tomatoes Rating: ' + jsonData.tomatoRating);
+            console.log('Country: ' + jsonData.Country);
+            console.log('Language: ' + jsonData.Language);
+            console.log('Plot: ' + jsonData.Plot);
+            console.log('Actors: ' + jsonData.Actors);
 
         }
 
